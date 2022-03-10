@@ -1,0 +1,370 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.CompileOnBackground=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=J:\_Contacts\Conseil Des Sages\Site Web\cds.jubile.fr\www\cds-01\modules\lexikon
+DefaultCP=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+HTServer=localhost
+Extensions=*.*
+[Project tree]
+_lexikon
+	+lexikon
+		+admin
+			admin\about.php
+			admin\admin.php
+			admin\admin_footer.php
+			admin\admin_header.php
+			admin\category.php
+			admin\entry.php
+			admin\functions.php
+			admin\importdictionary.php
+			admin\importglossaire.php
+			admin\importwiwimod.php
+			admin\importwordbook.php
+			admin\importxwords.php
+			admin\index.html
+			admin\index.php
+			admin\main.php
+			admin\menu.php
+			admin\myblockform.php
+			admin\myblocksadmin.php
+			admin\myblocksadmin2.php
+			admin\mygroupperm.php
+			admin\mygrouppermform.php
+			admin\permissions.php
+			admin\preferences.php
+			admin\statistics.php
+			admin\submissions.php
+			admin\upgrade.php
+		+assets
+			+css
+				assets\css\index.html
+				assets\css\linkterms.css
+				assets\css\style.css
+			-images
+				-bookmark
+					assets\images\bookmark\blinklist.gif
+					assets\images\bookmark\blinklist.png
+					assets\images\bookmark\delicious.gif
+					assets\images\bookmark\digg.gif
+					assets\images\bookmark\diggman.gif
+					assets\images\bookmark\facebook.gif
+					assets\images\bookmark\fark.png
+					assets\images\bookmark\furl.gif
+					assets\images\bookmark\google.gif
+					assets\images\bookmark\google_bookmarks.gif
+					assets\images\bookmark\index.html
+					assets\images\bookmark\linkarena.gif
+					assets\images\bookmark\mrwong.gif
+					assets\images\bookmark\newsvine.gif
+					assets\images\bookmark\oneview.gif
+					assets\images\bookmark\reddit.gif
+					assets\images\bookmark\reddit.png
+					assets\images\bookmark\simpy.png
+					assets\images\bookmark\spurl.gif
+					assets\images\bookmark\studivz.png
+					assets\images\bookmark\stumbleupon.gif
+					assets\images\bookmark\technorati.png
+					assets\images\bookmark\twitter.gif
+					assets\images\bookmark\wong.gif
+					assets\images\bookmark\yahoomyweb.gif
+					assets\images\bookmark\yigg.gif
+				-icon
+					assets\images\icon\delete.gif
+					assets\images\icon\edit.gif
+					assets\images\icon\index.html
+					assets\images\icon\off.gif
+					assets\images\icon\on.gif
+				-uploads
+					assets\images\uploads\blank.png
+					assets\images\uploads\index.html
+					assets\images\uploads\xoops.gif
+					assets\images\uploads\xoops.png
+				assets\images\addthis_button0-bm.gif
+				assets\images\addthis_button1-bm.gif
+				assets\images\arrow.gif
+				assets\images\arrow2.gif
+				assets\images\bg.gif
+				assets\images\blank.png
+				assets\images\bubble_bottom.gif
+				assets\images\bubble_middle.gif
+				assets\images\bubble_top.gif
+				assets\images\close12.gif
+				assets\images\comments.gif
+				assets\images\delete.gif
+				assets\images\dialog-important.png
+				assets\images\edit.gif
+				assets\images\friend.gif
+				assets\images\index.html
+				assets\images\left_both.gif
+				assets\images\logoModule.png
+				assets\images\lx.png
+				assets\images\magnifier.gif
+				assets\images\open12.gif
+				assets\images\print.gif
+				assets\images\rarrow.gif
+				assets\images\rarrow.png
+				assets\images\right_both.gif
+				assets\images\rss.gif
+				assets\images\square-green.gif
+				assets\images\square-red.gif
+			-js
+				assets\js\balloontooltip.js
+				assets\js\domticker.js
+				assets\js\index.html
+				assets\js\pausescroller.js
+				assets\js\popup.js
+				assets\js\shadowtooltip.js
+				assets\js\tooltipscript2.js
+			assets\index.html
+		-blocks
+			blocks\.htaccess
+			blocks\categories_block.php
+			blocks\entries_authors.php
+			blocks\entries_initial.php
+			blocks\entries_new.php
+			blocks\entries_scrolling.php
+			blocks\entries_spot.php
+			blocks\entries_top.php
+			blocks\index.html
+			blocks\lexikon_block_tag.php
+			blocks\random_term.php
+		-class
+			-plugins
+				class\plugins\plugin.tag.php
+			class\index.html
+			class\keyhighlighter.class.php
+			class\lexikontree.php
+			class\Utility.php
+		-docs
+			docs\changelog.txt
+			docs\credits.txt
+			docs\index.html
+			docs\install.txt
+			docs\lang_diff.txt
+			docs\license.txt
+			docs\readme.txt
+		-include
+			include\.htaccess
+			include\blocksadmin.inc.php
+			include\comment_functions.php
+			include\common.inc.php
+			include\gtickets.php
+			include\index.html
+			include\install_function.php
+			include\notification.inc.php
+			include\onupdate.inc.php
+			include\requestform.php
+			include\search.inc.php
+			include\sitemap.plugin.php
+			include\storyform.inc.php
+			include\syndication.inc.php
+			include\update_function.php
+			include\updateblock.inc.php
+			include\waiting.plugin.php
+		+language
+			-english
+				-help
+					language\english\help\help.html
+					language\english\help\helpheader.html
+					language\english\help\index.html
+				-mail_template
+					language\english\mail_template\category_newterm_notify.tpl
+					language\english\mail_template\category_termsubmit_notify.tpl
+					language\english\mail_template\global_termrequest_notify.tpl
+					language\english\mail_template\global_termsubmit_notify.tpl
+					language\english\mail_template\index.html
+					language\english\mail_template\lexikon_newcat_notify.tpl
+					language\english\mail_template\lexikon_newpost_notify.tpl
+					language\english\mail_template\term_approve_notify.tpl
+				language\english\admin.php
+				language\english\blocks.php
+				language\english\index.html
+				language\english\main.php
+				language\english\modinfo.php
+			+french
+				-mail_template
+					language\french\mail_template\category_newterm_notify.tpl
+					language\french\mail_template\category_termsubmit_notify.tpl
+					language\french\mail_template\global_termrequest_notify.tpl
+					language\french\mail_template\global_termsubmit_notify.tpl
+					language\french\mail_template\index.html
+					language\french\mail_template\lexikon_newcat_notify.tpl
+					language\french\mail_template\lexikon_newpost_notify.tpl
+					language\french\mail_template\term_approve_notify.tpl
+				language\french\admin.php
+				language\french\blocks.php
+				language\french\index.html
+				language\french\main.php
+				language\french\modinfo.php
+				language\french\waiting.php
+			-german
+				-help
+					language\german\help\help.html
+					language\german\help\index.html
+				-mail_template
+					language\german\mail_template\category_newterm_notify.tpl
+					language\german\mail_template\category_termsubmit_notify.tpl
+					language\german\mail_template\global_termrequest_notify.tpl
+					language\german\mail_template\global_termsubmit_notify.tpl
+					language\german\mail_template\index.html
+					language\german\mail_template\lexikon_newcat_notify.tpl
+					language\german\mail_template\lexikon_newpost_notify.tpl
+					language\german\mail_template\term_approve_notify.tpl
+				language\german\admin.php
+				language\german\blocks.php
+				language\german\index.html
+				language\german\main.php
+				language\german\modinfo.php
+			language\.htaccess
+			language\index.html
+		+sql
+			sql\index.html
+			sql\mysql.sql
+		+templates
+			templates\index.html
+			templates\lexikon_rss.tpl
+			templates\lx_adminmenu.tpl
+			templates\lx_alphabet.tpl
+			templates\lx_authorlist.tpl
+			templates\lx_bookmark.tpl
+			templates\lx_category.tpl
+			templates\lx_content.tpl
+			templates\lx_entry.tpl
+			templates\lx_header.tpl
+			templates\lx_index.tpl
+			templates\lx_letter.tpl
+			templates\lx_profile.tpl
+			templates\lx_request.tpl
+			templates\lx_rss.tpl
+			templates\lx_search.tpl
+			templates\lx_search-main.tpl
+			templates\lx_search-main-right.tpl
+			templates\lx_submit.tpl
+			templates\lx_syndication.tpl
+			templates\lx_tag_bar.tpl
+			templates\lx_topten.tpl
+		+templates-org
+			-blocks
+				templates-org\blocks\categories_block.tpl
+				templates-org\blocks\entries_authors.tpl
+				templates-org\blocks\entries_initial.tpl
+				templates-org\blocks\entries_new.tpl
+				templates-org\blocks\entries_random.tpl
+				templates-org\blocks\entries_scrolling.tpl
+				templates-org\blocks\entries_spot.tpl
+				templates-org\blocks\entries_top.tpl
+				templates-org\blocks\index.html
+				templates-org\blocks\lexikon_tag_block_cloud.tpl
+				templates-org\blocks\lexikon_tag_block_top.tpl
+			templates-org\index.html
+			templates-org\lexikon_rss.tpl
+			templates-org\lx_adminmenu.tpl
+			templates-org\lx_authorlist.tpl
+			templates-org\lx_bookmark.tpl
+			templates-org\lx_category.tpl
+			templates-org\lx_content.tpl
+			templates-org\lx_entry.tpl
+			templates-org\lx_header.tpl
+			templates-org\lx_index.tpl
+			templates-org\lx_letter.tpl
+			templates-org\lx_profile.tpl
+			templates-org\lx_request.tpl
+			templates-org\lx_rss.tpl
+			templates-org\lx_search.tpl
+			templates-org\lx_submit.tpl
+			templates-org\lx_syndication.tpl
+			templates-org\lx_tag_bar.tpl
+			templates-org\lx_topten.tpl
+		.gitattributes
+		.gitignore
+		.scrutinizer.yml
+		authorlist.php
+		category.php
+		comment_delete.php
+		comment_edit.php
+		comment_new.php
+		comment_post.php
+		comment_reply.php
+		content.php
+		entry.php
+		header.php
+		index.php
+		letter.php
+		list.tag.php
+		notification_update.php
+		popup.php
+		print.php
+		profile.php
+		README.md
+		request.php
+		rss.php
+		search.php
+		submit.php
+		syndication.php
+		view.tag.php
+		xoops_version.php
+[Open project files]
+0=letter.php
+1=include\common.inc.php
+2=submit.php
+3=header.php
+4=templates\lx_letter.tpl
+5=templates\lx_alphabet.tpl
+6=sql\mysql.sql
+7=index.php
+8=category.php
+9=language\english\admin.php
+10=admin\index.php
+11=admin\category.php
+12=admin\entry.php
+[Selected Project Files]
+Main=
+Selected=admin\category.php
+[letter.php]
+TopLine=1
+Caret=54,12
+[include\common.inc.php]
+TopLine=5
+Caret=31,23
+[submit.php]
+TopLine=89
+Caret=1,107
+[header.php]
+TopLine=1
+Caret=1,17
+[templates\lx_letter.tpl]
+TopLine=28
+Caret=1,56
+[templates\lx_alphabet.tpl]
+TopLine=11
+Caret=41,17
+[sql\mysql.sql]
+TopLine=11
+Caret=1,29
+[index.php]
+TopLine=9
+Caret=56,34
+[category.php]
+TopLine=42
+Caret=38,18
+[language\english\admin.php]
+TopLine=159
+Caret=1,176
+[admin\index.php]
+TopLine=13
+Caret=1,1
+[admin\category.php]
+TopLine=355
+Caret=15,379
+[admin\entry.php]
+TopLine=394
+Caret=1,412
